@@ -19,7 +19,7 @@
 * body .mainGrid .middleBanner {
   grid-column: 2/4;
   grid-row: 1/2;
-  background-image: url(./assets/images/middleBanner.png);
+  background-image: url(~/assets/images/middleBanner.png);
   min-width: 100%;
   height: auto;
   z-index: 1;
