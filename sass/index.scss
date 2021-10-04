@@ -3,6 +3,8 @@
 
     body {
         margin: 0;
+        z-index: 0;
+        position: relative;
 
         .mainGrid {
             display: grid;
@@ -21,6 +23,8 @@
                 background-image: url(/assets/images/middleBanner.png);
                 min-width: 100%;
                 height: auto;
+                z-index: 1;
+                position: absolute;
             }
 
             .rightBanner {
