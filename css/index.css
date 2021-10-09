@@ -3,37 +3,65 @@
 }
 * body {
   margin: 0;
+  height: 1200px;
+  background: white;
+  background: linear-gradient(0deg, white 1%, #aedae3 48%, #00d4ff 100%);
 }
-* body .mainGrid {
+* body .banner {
   display: grid;
-  grid-template-columns: auto 1fr 1fr auto;
-  grid-template-rows: auto 5rem auto auto auto;
+  grid-template-columns: 300px auto 300px auto 300px;
+  grid-template-rows: 300px 300px;
   font-size: 16px;
+  z-index: 1;
 }
-* body .mainGrid .leftBanner {
-  grid-column: 1/2;
-  grid-row: 1/2;
+* body .banner .bannerPiece_07 {
+  grid-column: 5/6;
 }
-* body .mainGrid .middleBanner {
-  grid-column: 2/4;
-  grid-row: 1/2;
-  background-image: url(/assets/images/middlebanner.png);
-  min-width: 100%;
-  height: auto;
+* body .banner .bannerPiece_02 {
+  background-image: url(/assets/images/banner/bannerPiece-02.svg);
+  background-size: 300px auto;
 }
-* body .mainGrid .rightBanner {
-  grid-column: 4/5;
-  grid-row: 1/2;
+* body .banner .bannerPiece_04 {
+  background-image: url(/assets/images/banner/bannerPiece-04.svg);
+  background-size: 300px auto;
 }
-* body .mainGrid .title {
-  grid-column: 2/4;
+* body .banner .tempLogo {
+  grid-column: 3/4;
   grid-row: 2/3;
   justify-self: center;
+  z-index: 2;
+  animation: wiggle 3s;
+  z-index: 2;
 }
-* body .mainGrid .tempBanner {
-  grid-column: 2/4;
-  grid-row: 3/4;
-  justify-self: center;
+* body h1 {
+  padding-top: 7rem;
+  display: flex;
+  justify-content: center;
+  font-family: cinzel;
+  src: url(/assets/font/Cinzel-Black.otf);
+}
+@keyframes wiggle {
+  11% {
+    transform: rotate(30deg);
+  }
+  22% {
+    transform: rotate(-30deg);
+  }
+  44% {
+    transform: rotate(30deg);
+  }
+  55% {
+    transform: rotate(-30deg);
+  }
+  77% {
+    transform: rotate(30deg);
+  }
+  88% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
