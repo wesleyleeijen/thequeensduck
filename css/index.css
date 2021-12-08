@@ -3,65 +3,59 @@
 }
 * body {
   margin: 0;
-  height: 1200px;
-  background: white;
-  background: linear-gradient(0deg, white 1%, #aedae3 48%, #00d4ff 100%);
 }
-* body .banner {
+* body #header {
   display: grid;
-  grid-template-columns: 300px auto 300px auto 300px;
-  grid-template-rows: 300px 300px;
-  font-size: 16px;
-  z-index: 1;
+  grid-template-columns: 12.5rem auto 12.5rem auto 12.5rem;
+  grid-template-rows: 12.5rem 6.5rem;
+  background: white;
+  background: linear-gradient(360deg, white 0%, #c3e7f7 11%, #29abe2 100%);
 }
-* body .banner .bannerPiece_07 {
+* body #header .bannerPiece_07 {
   grid-column: 5/6;
 }
-* body .banner .bannerPiece_02 {
-  background-image: url(/assets/images/banner/bannerPiece-02.svg);
-  background-size: 300px auto;
+* body #header .bannerPiece_02 {
+  background-image: url(/assets/images/banner/NewBanner-02.svg);
+  background-size: 200px auto;
+  background-repeat: repeat-x;
 }
-* body .banner .bannerPiece_04 {
-  background-image: url(/assets/images/banner/bannerPiece-04.svg);
-  background-size: 300px auto;
+* body #header .bannerPiece_04 {
+  background-image: url(/assets/images/banner/NewBanner-04.svg);
+  background-size: 200px auto;
+  background-repeat: repeat-x;
 }
-* body .banner .tempLogo {
-  grid-column: 3/4;
+* main {
+  display: grid;
+  grid-template-columns: auto 30vw auto;
+  grid-template-rows: 5rem minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content) 5rem;
+  background-color: #22b573;
+}
+* main #por_Piece1 {
+  grid-column: 2/3;
   grid-row: 2/3;
-  justify-self: center;
-  z-index: 2;
-  animation: wiggle 3s;
-  z-index: 2;
 }
-* body h1 {
-  padding-top: 7rem;
+* main #entry_Section {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  background-image: url(/assets/images/portrait/por_middle.svg);
+}
+* main #entry_Section #art_Entry {
   display: flex;
-  justify-content: center;
-  font-family: cinzel;
-  src: url(/assets/font/Cinzel-Black.otf);
+  flex-direction: row;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
+  padding: 1rem;
 }
-@keyframes wiggle {
-  11% {
-    transform: rotate(30deg);
-  }
-  22% {
-    transform: rotate(-30deg);
-  }
-  44% {
-    transform: rotate(30deg);
-  }
-  55% {
-    transform: rotate(-30deg);
-  }
-  77% {
-    transform: rotate(30deg);
-  }
-  88% {
-    transform: rotate(-30deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
+* main #entry_Section #art_Entry img {
+  height: 12.5rem;
+  border-radius: 50%;
+}
+* main #entry_Section #art_Entry .acc_Text {
+  padding-left: 1rem;
+}
+* main #por_Piece2 {
+  grid-column: 2/3;
+  grid-row: 4/5;
 }
 
 /*# sourceMappingURL=index.css.map */
