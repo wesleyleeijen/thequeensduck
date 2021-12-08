@@ -3,14 +3,15 @@
 
     body {
         margin: 0;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(360deg, rgba(255, 255, 255, 1) 0%, rgba(195, 231, 247, 1) 11%, rgba(41, 171, 226, 1) 100%);
 
 
         #header {
             display: grid;
             grid-template-columns: 12.5rem auto 12.5rem auto 12.5rem;
             grid-template-rows: 12.5rem 6.5rem;
-            background: rgb(255, 255, 255);
-            background: linear-gradient(360deg, rgba(255, 255, 255, 1) 0%, rgba(195, 231, 247, 1) 11%, rgba(41, 171, 226, 1) 100%);
+
 
             .bannerPiece_07 {
                 grid-column: 5/6;
@@ -35,9 +36,8 @@
 
     main {
         display: grid;
-        grid-template-columns: auto 30vw auto;
-        grid-template-rows: 5rem minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content) 5rem;
-        background-color: rgba(34, 181, 115, 1);
+        grid-template-columns: auto 20rem auto;
+        grid-template-rows: 5rem minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content) 2rem;
 
         #por_Piece1 {
             grid-column: 2/3;

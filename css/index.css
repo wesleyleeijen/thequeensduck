@@ -3,13 +3,13 @@
 }
 * body {
   margin: 0;
+  background: white;
+  background: linear-gradient(360deg, white 0%, #c3e7f7 11%, #29abe2 100%);
 }
 * body #header {
   display: grid;
   grid-template-columns: 12.5rem auto 12.5rem auto 12.5rem;
   grid-template-rows: 12.5rem 6.5rem;
-  background: white;
-  background: linear-gradient(360deg, white 0%, #c3e7f7 11%, #29abe2 100%);
 }
 * body #header .bannerPiece_07 {
   grid-column: 5/6;
@@ -26,9 +26,8 @@
 }
 * main {
   display: grid;
-  grid-template-columns: auto 30vw auto;
-  grid-template-rows: 5rem minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content) 5rem;
-  background-color: #22b573;
+  grid-template-columns: auto 20rem auto;
+  grid-template-rows: 5rem minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content) 2rem;
 }
 * main #por_Piece1 {
   grid-column: 2/3;
