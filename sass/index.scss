@@ -1,16 +1,21 @@
 * {
     box-sizing: border-box;
+    z-index: 0;
+    position: relative;
+
 
     body {
         margin: 0;
         background: rgb(255, 255, 255);
         background: linear-gradient(360deg, rgba(255, 255, 255, 1) 0%, rgba(195, 231, 247, 1) 11%, rgba(41, 171, 226, 1) 100%);
+        background-size: cover;
 
 
         #header {
             display: grid;
-            grid-template-columns: 12.5rem auto 12.5rem auto 12.5rem;
-            grid-template-rows: 12.5rem 6.5rem;
+            grid-template-columns: 18.75rem auto 18.75rem auto 18.75rem;
+            grid-template-rows: 18.75rem 5rem;
+
 
 
             .bannerPiece_07 {
@@ -19,16 +24,14 @@
 
             .bannerPiece_02 {
                 background-image: url(/assets/images/banner/NewBanner-02.svg);
-                background-size: 200px auto;
+                background-size: 18.75rem auto;
                 background-repeat: repeat-x;
-                // display: block;
             }
 
             .bannerPiece_04 {
                 background-image: url(/assets/images/banner/NewBanner-04.svg);
-                background-size: 200px auto;
+                background-size: 18.75rem auto;
                 background-repeat: repeat-x;
-                // display: block;
             }
         }
 
@@ -36,8 +39,25 @@
 
     main {
         display: grid;
-        grid-template-columns: auto 20rem auto;
+        grid-template-columns: auto 40rem auto;
         grid-template-rows: 5rem minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content) 2rem;
+        z-index: 1;
+        position: relative;
+        min-width: 56.25rem;
+
+
+        .bowtie {
+            width: 10rem;
+            height: 7rem;
+            position: absolute;
+            z-index: 1;
+            grid-column: 2/3;
+            grid-row: 2/3;
+            left: 34rem;
+            bottom: 3.5rem;
+            z-index: 2;
+            position: absolute;
+        }
 
         #por_Piece1 {
             grid-column: 2/3;
@@ -57,8 +77,11 @@
                 padding: 1rem;
 
                 img {
-                    height: 12.5rem;
-                    border-radius: 50%;
+                    width: 34.375rem;
+                    image-rendering: -moz-crisp-edges;
+                    image-rendering: -webkit-crisp-edges;
+                    image-rendering: pixelated;
+                    image-rendering: crisp-edges;
                 }
 
                 .acc_Text {
