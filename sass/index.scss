@@ -15,21 +15,47 @@
             display: grid;
             grid-template-columns: 18.75rem auto 18.75rem auto 18.75rem;
             grid-template-rows: 18.75rem 5rem;
+            z-index: 0;
+            position: relative;
 
 
+            .bannerPiece_03-z1 {
+                grid-column: 3/4;
+                grid-row: 0/1;
+                width: 18.75rem;
+                z-index: -2;
+                position: absolute;
+            }
+
+            .bannerPiece_03-z2 {
+                grid-column: 3/4;
+                grid-row: 0/1;
+                width: 18.75rem;
+                z-index: -1;
+                position: absolute;
+                animation: circ 40s linear infinite;
+            }
+
+            .bannerPiece_03-z3 {
+                grid-column: 3/4;
+                grid-row: 0/1;
+                width: 18.75rem;
+                z-index: 1;
+                position: absolute;
+            }
 
             .bannerPiece_07 {
                 grid-column: 5/6;
             }
 
             .bannerPiece_02 {
-                background-image: url(/assets/images/banner/NewBanner-02.svg);
+                background-image: url(/assets/images/banner/moving_Banner-02.svg);
                 background-size: 18.75rem auto;
                 background-repeat: repeat-x;
             }
 
             .bannerPiece_04 {
-                background-image: url(/assets/images/banner/NewBanner-04.svg);
+                background-image: url(/assets/images/banner/moving_Banner-04.svg);
                 background-size: 18.75rem auto;
                 background-repeat: repeat-x;
             }
@@ -68,7 +94,7 @@
             left: 37.5rem;
             top: -6.5rem;
             // border: black 2px solid;
-            animation: tie 40s infinite;
+            animation: tie 40s linear infinite;
 
         }
 
@@ -81,7 +107,7 @@
             left: 36.8rem;
             top: -8rem;
             // border: red 2px solid;
-            animation: tie2 40s infinite;
+            animation: tie2 40s linear infinite;
         }
 
         #por_Piece1 {
@@ -155,12 +181,20 @@
         transform: rotate(-50deg);
     }
 
-    33% {
-        transform: rotate(0%);
+    34% {
+        transform: rotate(-20deg);
+    }
+
+    37% {
+        transform: rotate(-22deg);
+    }
+
+    42% {
+        transform: rotate(0deg);
     }
 
     100% {
-        transform: rotate(0%);
+        transform: rotate(0deg);
     }
 
 }
@@ -194,12 +228,24 @@
         transform: rotate(-50deg);
     }
 
-    33% {
-        transform: rotate(0%);
+    36% {
+        transform: rotate(-22deg);
+    }
+
+    41% {
+        transform: rotate(0deg);
     }
 
     100% {
-        transform: rotate(0%);
+        transform: rotate(0deg);
     }
 
+}
+
+@keyframes circ {
+
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
