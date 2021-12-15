@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 300"
+	 style="enable-background:new 0 0 300 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#0D8036;}
+	.st1{fill:#D2CFB5;}
+	.st2{fill:#FED200;}
+	.st3{fill:#2E2E2E;}
+	.st4{fill:#D1E7D5;}
+	.st5{fill:#9D8300;}
+	.st6{fill:none;}
+	.st7{fill:#E63F37;}
+	.st8{fill:#F5A900;}
+	.st9{fill:#00950A;}
+	.st10{fill:#15C534;}
+	.st11{fill:#7D4A26;}
+	.st12{fill:#ADA77F;}
+	.st13{fill:#3E1604;}
+	.st14{fill:#00970A;}
+	.st15{fill:#ABD2B1;}
+	.st16{fill:#ACA77F;}
+	.st17{fill:#6D6D6D;}
+	.st18{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st19{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st20{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st21{fill:none;stroke:#000000;stroke-linecap:round;stroke-miterlimit:10;}
+	.st22{fill:#FFD103;}
+	.st23{fill:#E53F37;}
+	.st24{fill:#48AC38;}
+	.st25{fill:#D0CEB4;}
+	.st26{fill:#D0E6D4;}
+	.st27{fill:#F4A806;}
+	.st28{fill:#7D4A25;}
+	.st29{fill:#ACA67F;}
+	.st30{fill:#3B190F;}
+	.st31{fill:#0D9739;}
+	.st32{fill:#AAD1B1;}
+	.st33{fill:#ABA67F;}
+	.st34{fill:#6E6E6E;}
+	.st35{fill:#9B8316;}
+	.st36{fill:#0B9539;}
+</style>
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="341.2" width="917.2" x="-336.1" y="982.9"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="duckfill">
+</g>
+<g id="rightwingfill">
+</g>
+<g id="rightwingline">
+</g>
+<g id="leftwingfill">
+</g>
+<g id="leftwingline">
+	<path class="st0" d="M150,0C67.2,0,0,67.2,0,150c0,82.8,67.2,150,150,150s150-67.2,150-150C300,67.2,232.8,0,150,0z M52.4,212.7
+		c0.4,0.1,0.7,0.2,1.1,0.2c3.7,0.7,6.8,0.9,9.4,1c-0.1,0-0.1,0-0.2,0.1c-0.3,0.1-3.7,1.4-6.8,3.8C54.7,216.2,53.5,214.5,52.4,212.7z
+		 M34.3,158.2c0.3,0.5,0.5,1,0.8,1.5c4.9,8.9,11.7,15.3,17.4,19.4c-2.9-0.2-6-0.4-7.3-0.4c-1.3,0-4.3,0-7.2,1.2
+		C36,173,34.8,165.7,34.3,158.2z M43.8,103.1c1.3,5.9,3.1,11.7,5.2,17c-2.9-3.5-6-5.9-9.4-5.9C40.8,110.4,42.3,106.7,43.8,103.1z
+		 M265.9,144.2l-1,0.6c-0.3,0.2-6.8,4.5-13.3,13.3c-0.5-4-1.4-6.5-1.5-6.7l-0.7-1.9l-1.7,1c-0.4,0.2-9.5,5.6-15.8,17.1
+		c-1.5-0.2-2.7-0.3-3.4-0.3c-16.3-4.6-35.5-1.5-40.4-0.6c-6.1,1.2-21.4,4.6-31.2,11.3c0.8-15.8,6.8-27.5,12.7-38.8
+		c5.5-10.6,10.7-20.6,11.6-33.4c4.5,1.8,8.7,2.5,12.5,2.5c7.8,0,13.9-3.1,17.5-6.7l26-26.6H211V51.3C242.5,70.8,264,105,265.9,144.2
+		z M178.6,37.5c5.4,1.4,10.6,3.1,15.7,5.2h-15.7V37.5z M150,34c3.7,0,7.4,0.2,11,0.5l-9.3,9.3c-4.5,4.5-6.7,11.2-6.2,18.5
+		c-27.5,1.1-37.1,25.6-38.9,31.2c-11.8,1.4-17,5.3-19.3,8.6c-0.3,0.5-1.3,1.8-0.8,3.5c0.6,2,2.7,3.6,7.3,5.6c2,0.9,5.5,1.8,9.6,2.8
+		c-2.8,4.5-4.1,8-4,10.7c0.1,3,1.9,4.2,2.6,4.6c1.3,0.9,3.8,1.5,7,1.5c1.3,0,2.8-0.1,4.5-0.3c0.2,2.6,0.3,10.8-2.5,22.8
+		c-4.5-2.1-16.3-8.7-26-24.8c-0.1-0.1-0.1-0.2-0.2-0.3c-3.3-7.1-11.1-25.5-13.7-43.6C70.3,78.4,68,74,64.6,71.5
+		C85.8,48.4,116.2,34,150,34z M99.2,254.4c-7.2-3.5-13.9-7.7-20.2-12.5c4.6-0.4,9.9-1.7,15.7-4.5c0.5,4.4,1.4,8.6,2.7,12.3
+		C98,251.3,98.6,252.9,99.2,254.4z"/>
+</g>
+<g id="duckline">
+</g>
+</svg>

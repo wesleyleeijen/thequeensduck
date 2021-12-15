@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Damion&display=swap");
 * {
   box-sizing: border-box;
   z-index: 0;
@@ -15,6 +16,20 @@
   grid-template-rows: 18.75rem 5rem;
   z-index: 0;
   position: relative;
+}
+* body #header .bannerPiece_02 {
+  background-image: url(/assets/images/banner/moving_Banner-02alt.svg);
+  background-size: 18.75rem auto;
+  background-repeat: repeat-x;
+}
+* body #header .bannerPiece_02text {
+  z-index: 1;
+  position: absolute;
+  grid-column: 2/3;
+  top: 13rem;
+  font-size: 30px;
+  font-family: "Damion", cursive;
+  color: salmon;
 }
 * body #header .bannerPiece_03-z1 {
   grid-column: 3/4;
@@ -38,18 +53,18 @@
   z-index: 1;
   position: absolute;
 }
-* body #header .bannerPiece_07 {
-  grid-column: 5/6;
-}
-* body #header .bannerPiece_02 {
-  background-image: url(/assets/images/banner/moving_Banner-02.svg);
-  background-size: 18.75rem auto;
-  background-repeat: repeat-x;
-}
 * body #header .bannerPiece_04 {
   background-image: url(/assets/images/banner/moving_Banner-04.svg);
   background-size: 18.75rem auto;
   background-repeat: repeat-x;
+}
+* body #header .bannerPiece_07 {
+  grid-column: 5/6;
+}
+@media only screen and (max-width: 1000px) {
+  * .bannerPiece_02text {
+    display: none;
+  }
 }
 * main {
   display: grid;
